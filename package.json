@@ -1,0 +1,24 @@
+{
+  "name": "aca_management",
+  "version": "1.0.0",
+  "description": "Android container automation task management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development backend/bin/www"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "microanswer",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "log4js": "^6.6.1"
+  }
+}
