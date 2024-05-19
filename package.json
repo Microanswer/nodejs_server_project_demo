@@ -1,7 +1,7 @@
 {
-  "name": "aca_management",
+  "name": "demo",
   "version": "1.0.0",
-  "description": "Android container automation task management",
+  "description": "demo desc.",
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development backend/bin/www"
